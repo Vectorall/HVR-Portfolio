@@ -13,10 +13,17 @@
   height: 100vh;
 }
 
+.title {
+  text-align: center;
+  background-color: royalblue;
+}
+
 .sidebar {
   position: fixed;
   top: 50vh;
   transform: translate(0, -50%);
+  margin-left: 5px;
+  border: solid royalblue 3px;
 }
 
 .sidebar li a {

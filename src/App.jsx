@@ -7,7 +7,8 @@ function App() {
   return (
     <div className="App">
       <header>
-
+        <nav></nav>
+        <h1 className="title">Hello, I am Hector.</h1>
       </header>
       <Canvas>
         <color attach="background" args={[0.01, 0.01, 0.01]} />
