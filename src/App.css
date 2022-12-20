@@ -22,3 +22,7 @@
 .sidebar li a {
   text-decoration: none;
 }
+
+.sidebar li a:hover {
+  color: gold;
+}
