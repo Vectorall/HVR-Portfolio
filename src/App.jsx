@@ -10,7 +10,7 @@ function App() {
         <nav></nav>
         <h1 className="title">Hello, I am Hector.</h1>
       </header>
-      <Canvas>
+      <Canvas style={{width: "50vw", height: "50vh"}}>
         <color attach="background" args={[0.01, 0.01, 0.01]} />
         <ambientLight intensity={1} />
         <directionalLight insensity={1} />
